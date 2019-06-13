@@ -36,7 +36,7 @@ $aMenuLinks = Array(
 		""
 	),
 	Array(
-		"Мой кабинет",
+		"Мой кабинет2",
 		"personal/",
 		Array(),
 		Array(),
