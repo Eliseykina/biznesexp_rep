@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/bitrix/js/pull/protobuf/protobuf.min.js" => "156019040020692","/bitrix/js/pull/protobuf/model.js" => "156019040013978","/bitrix/js/pull/client/pull.client.js" => "156019040039145",); ?>
