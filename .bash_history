@@ -34,3 +34,13 @@ git remote rm origin
 git remote
 git remote add origin https://github.com/Eliseykina/biznesexp_rep.git
 git push
+git remote add origin https://github.com/Eliseykina/biznesexp_rep.git
+git remote rm origin
+git remote add origin https://github.com/Eliseykina/biznesexp_rep.git
+git push
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git add .
+git commit -m "test_2"
+git status
