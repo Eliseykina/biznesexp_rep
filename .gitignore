@@ -12,6 +12,10 @@ Thumbs.db
 ._.DS_Store
 .bash_history
 
+bitrix/cache/*
+bitrix/managed_cache/*
+bitrix/stack_cache/*
+
 bitrix/activities/
 bitrix/admin/
 bitrix/backup/
@@ -50,7 +54,3 @@ bitrix/panel/
 
 bitrix/php_interface/dbconn.php
 bitrix/php_interface/constants.php
-
-bitrix/cache/*
-bitrix/managed_cache/*
-bitrix/stack_cache/*

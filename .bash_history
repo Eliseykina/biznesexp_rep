@@ -44,3 +44,17 @@ git push -u origin master
 git add .
 git commit -m "test_2"
 git status
+cd /home/s/smileaar/biznesexpsmileaar.beget.tech/public_html
+git status
+git add .
+git status
+git status
+git add .
+git commit -m "task_gitignore"
+git status
+git push
+git status
+git branch verstka_shablona
+git checkout verstka_shablona
+git status
+git status
