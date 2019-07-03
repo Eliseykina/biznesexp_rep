@@ -1,3 +1,9 @@
+</div>
+	            </div>
+			</div>
+		</div>
+
+
 <!-- FOOTER-AREA START -->
 		<footer class="footer-area">
 			<!-- Footer Start -->
@@ -149,38 +155,17 @@
 		<!-- END QUICKVIEW PRODUCT -->
         
 
-		<!-- jquery
-		============================================ -->		
-        <script src="js/jquery-1.11.3.min.js"></script>
-		<!-- bootstrap JS
-		============================================ -->		
-        <script src="js/bootstrap.min.js"></script>
-		<!-- wow JS
-		============================================ -->		
-        <script src="js/wow.min.js"></script>
-		<!-- meanmenu JS
-		============================================ -->		
-        <script src="js/jquery.meanmenu.js"></script>
-		<!-- owl.carousel JS
-		============================================ -->		
-        <script src="js/owl.carousel.min.js"></script>
-		<!-- scrollUp JS
-		============================================ -->		
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <!-- countdon.min JS
-		============================================ -->		
-        <script src="js/countdon.min.js"></script>
-        <!-- jquery-price-slider js
-		============================================ --> 
-        <script src="js/jquery-price-slider.js"></script>
-        <!-- Nivo slider js
-		============================================ --> 		
-		<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
-		<!-- plugins JS
-		============================================ -->		
-        <script src="js/plugins.js"></script>
-		<!-- main JS
-		============================================ -->		
-        <script src="js/main.js"></script>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery-1.11.3.min.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/bootstrap.min.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/wow.min.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.meanmenu.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/owl.carousel.min.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.scrollUp.min.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/countdon.min.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery-price-slider.min.js");?>
+		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/jquery.nivo.slider.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/plugins.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/main.js");?>
+        <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH."/js/imagezoom.js");?>
     </body>
 </html>
