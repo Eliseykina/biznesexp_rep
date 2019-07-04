@@ -1,6 +1,8 @@
 .idea
+.gitignore
 /.htaccess
 /upload
+upload
 /*.txt
 /*.html
 ~*.php
@@ -10,13 +12,13 @@
 Thumbs.db
 .DS_Store
 ._.DS_Store
-.bash_history
 
 bitrix/activities/
 bitrix/admin/
 bitrix/backup/
 bitrix/click.php
 bitrix/components/*
+!bitrix/components/olegpro/
 bitrix/coupon_activation.php
 bitrix/footer.php
 bitrix/gadgets/
@@ -27,7 +29,7 @@ bitrix/index.php
 bitrix/js/
 bitrix/css/
 bitrix/license_key.php
-bitrix/modules/*
+bitrix/modules
 bitrix/otp/
 bitrix/p3p.xml
 bitrix/redirect.php
@@ -51,6 +53,6 @@ bitrix/panel/
 bitrix/php_interface/dbconn.php
 bitrix/php_interface/constants.php
 
-bitrix/cache/*
-bitrix/managed_cache/*
-bitrix/stack_cache/*
+bitrix/cache
+bitrix/managed_cache
+bitrix/stack_cache
