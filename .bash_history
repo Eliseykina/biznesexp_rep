@@ -58,3 +58,30 @@ git branch verstka_shablona
 git checkout verstka_shablona
 git status
 git status
+git status
+git checkout master
+git rm --cached bitrix/stack_cache
+git rm --cached bitrix/managed_cache/
+git rm --cached bitrix/managed_cache/MYSQL/b_sec_redirect_url/dd/ddc39d36dca0e1d26d89e2b1ae75
+git checkout -f master
+git rm --cached bitrix/managed_cache/
+git rm -r --cached bitrix/managed_cache/
+git status
+git checkout bardak
+git rm -r --cached bitrix/managed_cache/
+git status
+git add -A
+git commit "Удаление файлов кеша на мастере"
+git status
+git commit -m "Удаление файлов кеша из мастера"
+git status
+git checkout bardak
+git branch
+git checkout verstka_shablona
+git checkout master
+git merge verstka_shablona
+git status
+git push
+git checkuot -b "pravki_menu"
+git checkout -b "pravki_menu"
+git status
