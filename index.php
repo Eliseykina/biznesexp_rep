@@ -1,6 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Интернет-магазин \"Одежда\"");
+$APPLICATION->SetPageProperty("keyword","Интернет-магазин \"Одежда\"");
 ?>
 <?if (IsModuleInstalled("advertising")):?>
 <?$APPLICATION->IncludeComponent(
